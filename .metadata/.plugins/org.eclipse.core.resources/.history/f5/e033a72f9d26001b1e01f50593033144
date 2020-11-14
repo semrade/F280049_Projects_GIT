@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OBJ_SRCS += \
+../Debug/driverlib/f28004x/driverlib/adc.obj \
+../Debug/driverlib/f28004x/driverlib/asysctl.obj \
+../Debug/driverlib/f28004x/driverlib/can.obj \
+../Debug/driverlib/f28004x/driverlib/cla.obj \
+../Debug/driverlib/f28004x/driverlib/clapromcrc.obj \
+../Debug/driverlib/f28004x/driverlib/clb.obj \
+../Debug/driverlib/f28004x/driverlib/cmpss.obj \
+../Debug/driverlib/f28004x/driverlib/cputimer.obj \
+../Debug/driverlib/f28004x/driverlib/dac.obj \
+../Debug/driverlib/f28004x/driverlib/dcc.obj \
+../Debug/driverlib/f28004x/driverlib/dcsm.obj \
+../Debug/driverlib/f28004x/driverlib/dma.obj \
+../Debug/driverlib/f28004x/driverlib/ecap.obj \
+../Debug/driverlib/f28004x/driverlib/epwm.obj \
+../Debug/driverlib/f28004x/driverlib/eqep.obj \
+../Debug/driverlib/f28004x/driverlib/flash.obj \
+../Debug/driverlib/f28004x/driverlib/fsi.obj \
+../Debug/driverlib/f28004x/driverlib/gpio.obj \
+../Debug/driverlib/f28004x/driverlib/hrcap.obj \
+../Debug/driverlib/f28004x/driverlib/hrpwm.obj \
+../Debug/driverlib/f28004x/driverlib/i2c.obj \
+../Debug/driverlib/f28004x/driverlib/interrupt.obj \
+../Debug/driverlib/f28004x/driverlib/lin.obj \
+../Debug/driverlib/f28004x/driverlib/memcfg.obj \
+../Debug/driverlib/f28004x/driverlib/pga.obj \
+../Debug/driverlib/f28004x/driverlib/pmbus.obj \
+../Debug/driverlib/f28004x/driverlib/sci.obj \
+../Debug/driverlib/f28004x/driverlib/sdfm.obj \
+../Debug/driverlib/f28004x/driverlib/spi.obj \
+../Debug/driverlib/f28004x/driverlib/sysctl.obj \
+../Debug/driverlib/f28004x/driverlib/version.obj \
+../Debug/driverlib/f28004x/driverlib/xbar.obj 
+
+

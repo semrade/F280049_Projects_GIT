@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C Source File">
+<includepath>Debug_FLASH/${COM_TI_C2000WARE_SOFTWARE_PACKAGE_INCLUDE_PATH}</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include</includepath>
+<includepath>C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include</includepath>
+
+</language>
+<language name="C++ Source File">
+<includepath>Debug_FLASH/${COM_TI_C2000WARE_SOFTWARE_PACKAGE_INCLUDE_PATH}</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include</includepath>
+<includepath>C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include</includepath>
+
+</language>
+<language name="Assembly Source File">
+<includepath>Debug_FLASH/${COM_TI_C2000WARE_SOFTWARE_PACKAGE_INCLUDE_PATH}</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include</includepath>
+<includepath>C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include</includepath>
+
+</language>
+<language name="Assembly Source File">
+<includepath>Debug_FLASH/${COM_TI_C2000WARE_SOFTWARE_PACKAGE_INCLUDE_PATH}</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include</includepath>
+<includepath>C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include</includepath>
+<includepath>C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include</includepath>
+
+</language>
+<language name="Linker Command File">
+
+</language>
+<language name="Linker Command File">
+
+</language>
+<language name="Linker Command File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="C Source File">
+<macro>
+<name>${COM_TI_C2000WARE_SOFTWARE_PACKAGE_SYMBOLS}</name><value/>
+</macro>
+<macro>
+<name>_LAUNCHXL_F280049C</name><value/>
+</macro>
+<macro>
+<name>_DUAL_HEADERS</name><value/>
+</macro>
+
+</language>
+<language name="C++ Source File">
+<macro>
+<name>${COM_TI_C2000WARE_SOFTWARE_PACKAGE_SYMBOLS}</name><value/>
+</macro>
+<macro>
+<name>_LAUNCHXL_F280049C</name><value/>
+</macro>
+<macro>
+<name>_DUAL_HEADERS</name><value/>
+</macro>
+
+</language>
+<language name="Assembly Source File">
+<macro>
+<name>${COM_TI_C2000WARE_SOFTWARE_PACKAGE_SYMBOLS}</name><value/>
+</macro>
+<macro>
+<name>_LAUNCHXL_F280049C</name><value/>
+</macro>
+<macro>
+<name>_DUAL_HEADERS</name><value/>
+</macro>
+
+</language>
+<language name="Assembly Source File">
+<macro>
+<name>${COM_TI_C2000WARE_SOFTWARE_PACKAGE_SYMBOLS}</name><value/>
+</macro>
+<macro>
+<name>_LAUNCHXL_F280049C</name><value/>
+</macro>
+<macro>
+<name>_DUAL_HEADERS</name><value/>
+</macro>
+
+</language>
+<language name="Linker Command File">
+
+</language>
+<language name="Linker Command File">
+
+</language>
+<language name="Linker Command File">
+
+</language>
+</section>
+</cdtprojectproperties>

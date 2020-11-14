@@ -1,0 +1,232 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Each subdirectory must supply rules for building sources it contributes
+driverlib/adc.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/adc.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/asysctl.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/asysctl.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/can.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/can.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/cla.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/cla.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/clapromcrc.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/clapromcrc.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/clb.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/clb.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/cmpss.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/cmpss.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/cputimer.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/cputimer.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/dac.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/dac.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/dcc.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/dcc.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/dcsm.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/dcsm.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/dma.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/dma.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/ecap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/ecap.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/epwm.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/epwm.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/eqep.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/eqep.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/flash.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/flash.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/fsi.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/fsi.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/gpio.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/gpio.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/hrcap.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/hrpwm.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/hrpwm.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/i2c.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/i2c.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/interrupt.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/interrupt.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/lin.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/lin.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/memcfg.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/memcfg.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/pga.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/pga.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/pmbus.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/pmbus.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/sci.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/sci.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/sdfm.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/sdfm.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/spi.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/spi.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/sysctl.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/sysctl.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/version.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/version.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+driverlib/xbar.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/xbar.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/headers/include" --include_path="C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/inc" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="driverlib/$(basename $(<F)).d_raw" --obj_directory="driverlib" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+

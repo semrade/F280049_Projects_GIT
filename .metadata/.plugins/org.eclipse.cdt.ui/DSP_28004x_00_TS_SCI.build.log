@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug_RAM for project DSP_28004x_00_TS_SCI ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'DSP_28004x_00_TS_SCI.out' is up to date.
+
+**** Build Finished ****

@@ -1,0 +1,225 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+CG_TOOL_ROOT := C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS
+
+GEN_OPTS__FLAG := 
+GEN_CMDS__FLAG := 
+
+ORDERED_OBJS += \
+"./f28004x_globalvariabledefs.obj" \
+"./TS_SysMng/Src/main.obj" \
+"./driverlib/adc.obj" \
+"./driverlib/asysctl.obj" \
+"./driverlib/can.obj" \
+"./driverlib/cla.obj" \
+"./driverlib/clapromcrc.obj" \
+"./driverlib/clb.obj" \
+"./driverlib/cmpss.obj" \
+"./driverlib/cputimer.obj" \
+"./driverlib/dac.obj" \
+"./driverlib/dcc.obj" \
+"./driverlib/dcsm.obj" \
+"./driverlib/dma.obj" \
+"./driverlib/ecap.obj" \
+"./driverlib/epwm.obj" \
+"./driverlib/eqep.obj" \
+"./driverlib/flash.obj" \
+"./driverlib/fsi.obj" \
+"./driverlib/gpio.obj" \
+"./driverlib/hrcap.obj" \
+"./driverlib/hrpwm.obj" \
+"./driverlib/i2c.obj" \
+"./driverlib/interrupt.obj" \
+"./driverlib/lin.obj" \
+"./driverlib/memcfg.obj" \
+"./driverlib/pga.obj" \
+"./driverlib/pmbus.obj" \
+"./driverlib/sci.obj" \
+"./driverlib/sdfm.obj" \
+"./driverlib/spi.obj" \
+"./driverlib/sysctl.obj" \
+"./driverlib/version.obj" \
+"./driverlib/xbar.obj" \
+"./source/device.obj" \
+"./source/f28004x_adc.obj" \
+"./source/f28004x_codestartbranch.obj" \
+"./source/f28004x_cputimers.obj" \
+"./source/f28004x_dcsm_z1otp.obj" \
+"./source/f28004x_dcsm_z2otp.obj" \
+"./source/f28004x_defaultisr.obj" \
+"./source/f28004x_dma.obj" \
+"./source/f28004x_gpio.obj" \
+"./source/f28004x_piectrl.obj" \
+"./source/f28004x_pievect.obj" \
+"./source/f28004x_spi.obj" \
+"./source/f28004x_sysctrl.obj" \
+"./source/f28004x_usdelay.obj" \
+"../280049C_RAM_lnk.cmd" \
+$(GEN_CMDS__FLAG) \
+-llibc.a \
+
+-include ../makefile.init
+
+RM := DEL /F
+RMDIR := RMDIR /S/Q
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir_vars.mk
+-include TS_SysMng/Src/subdir_vars.mk
+-include driverlib/subdir_vars.mk
+-include source/subdir_vars.mk
+-include subdir_rules.mk
+-include TS_SysMng/Src/subdir_rules.mk
+-include driverlib/subdir_rules.mk
+-include source/subdir_rules.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C55_DEPS)),)
+-include $(C55_DEPS)
+endif
+ifneq ($(strip $(C_UPPER_DEPS)),)
+-include $(C_UPPER_DEPS)
+endif
+ifneq ($(strip $(S67_DEPS)),)
+-include $(S67_DEPS)
+endif
+ifneq ($(strip $(S62_DEPS)),)
+-include $(S62_DEPS)
+endif
+ifneq ($(strip $(S_DEPS)),)
+-include $(S_DEPS)
+endif
+ifneq ($(strip $(OPT_DEPS)),)
+-include $(OPT_DEPS)
+endif
+ifneq ($(strip $(C??_DEPS)),)
+-include $(C??_DEPS)
+endif
+ifneq ($(strip $(ASM_UPPER_DEPS)),)
+-include $(ASM_UPPER_DEPS)
+endif
+ifneq ($(strip $(S??_DEPS)),)
+-include $(S??_DEPS)
+endif
+ifneq ($(strip $(C64_DEPS)),)
+-include $(C64_DEPS)
+endif
+ifneq ($(strip $(CXX_DEPS)),)
+-include $(CXX_DEPS)
+endif
+ifneq ($(strip $(S64_DEPS)),)
+-include $(S64_DEPS)
+endif
+ifneq ($(strip $(INO_DEPS)),)
+-include $(INO_DEPS)
+endif
+ifneq ($(strip $(CLA_DEPS)),)
+-include $(CLA_DEPS)
+endif
+ifneq ($(strip $(S55_DEPS)),)
+-include $(S55_DEPS)
+endif
+ifneq ($(strip $(SV7A_DEPS)),)
+-include $(SV7A_DEPS)
+endif
+ifneq ($(strip $(C62_DEPS)),)
+-include $(C62_DEPS)
+endif
+ifneq ($(strip $(C67_DEPS)),)
+-include $(C67_DEPS)
+endif
+ifneq ($(strip $(PDE_DEPS)),)
+-include $(PDE_DEPS)
+endif
+ifneq ($(strip $(K_DEPS)),)
+-include $(K_DEPS)
+endif
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+ifneq ($(strip $(CC_DEPS)),)
+-include $(CC_DEPS)
+endif
+ifneq ($(strip $(C++_DEPS)),)
+-include $(C++_DEPS)
+endif
+ifneq ($(strip $(C43_DEPS)),)
+-include $(C43_DEPS)
+endif
+ifneq ($(strip $(S43_DEPS)),)
+-include $(S43_DEPS)
+endif
+ifneq ($(strip $(ASM_DEPS)),)
+-include $(ASM_DEPS)
+endif
+ifneq ($(strip $(S_UPPER_DEPS)),)
+-include $(S_UPPER_DEPS)
+endif
+ifneq ($(strip $(CPP_DEPS)),)
+-include $(CPP_DEPS)
+endif
+ifneq ($(strip $(SA_DEPS)),)
+-include $(SA_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+EXE_OUTPUTS += \
+DSP_28004x_00_TS_SCI.out \
+
+EXE_OUTPUTS__QUOTED += \
+"DSP_28004x_00_TS_SCI.out" \
+
+BIN_OUTPUTS += \
+DSP_28004x_00_TS_SCI.hex \
+
+BIN_OUTPUTS__QUOTED += \
+"DSP_28004x_00_TS_SCI.hex" \
+
+
+# All Target
+all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
+	@$(MAKE) --no-print-directory -Onone "DSP_28004x_00_TS_SCI.out"
+
+dependents:
+	-cd C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/Debug && $(MAKE) clean all
+
+# Tool invocations
+DSP_28004x_00_TS_SCI.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS) C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/Debug/DSP_280049_Common.out
+	@echo 'Building target: "$@"'
+	@echo 'Invoking: C2000 Linker'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"DSP_28004x_00_TS_SCI.map" --stack_size=0x200 --warn_sections -i"C:/ti/c2000/C2000Ware_3_02_00_00/driverlib/f28004x/driverlib" -i"C:/ti/c2000/C2000Ware_3_02_00_00/device_support/f28004x/common/source" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="DSP_28004x_00_TS_SCI_linkInfo.xml" --rom_model -o "DSP_28004x_00_TS_SCI.out" $(ORDERED_OBJS)
+	@echo 'Finished building target: "$@"'
+	@echo ' '
+
+DSP_28004x_00_TS_SCI.hex: $(EXE_OUTPUTS)
+	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
+	@echo 'Invoking: C2000 Hex Utility'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/hex2000"  -o "DSP_28004x_00_TS_SCI.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
+	-$(RM) "f28004x_globalvariabledefs.obj" "TS_SysMng\Src\main.obj" "driverlib\adc.obj" "driverlib\asysctl.obj" "driverlib\can.obj" "driverlib\cla.obj" "driverlib\clapromcrc.obj" "driverlib\clb.obj" "driverlib\cmpss.obj" "driverlib\cputimer.obj" "driverlib\dac.obj" "driverlib\dcc.obj" "driverlib\dcsm.obj" "driverlib\dma.obj" "driverlib\ecap.obj" "driverlib\epwm.obj" "driverlib\eqep.obj" "driverlib\flash.obj" "driverlib\fsi.obj" "driverlib\gpio.obj" "driverlib\hrcap.obj" "driverlib\hrpwm.obj" "driverlib\i2c.obj" "driverlib\interrupt.obj" "driverlib\lin.obj" "driverlib\memcfg.obj" "driverlib\pga.obj" "driverlib\pmbus.obj" "driverlib\sci.obj" "driverlib\sdfm.obj" "driverlib\spi.obj" "driverlib\sysctl.obj" "driverlib\version.obj" "driverlib\xbar.obj" "source\device.obj" "source\f28004x_adc.obj" "source\f28004x_codestartbranch.obj" "source\f28004x_cputimers.obj" "source\f28004x_dcsm_z1otp.obj" "source\f28004x_dcsm_z2otp.obj" "source\f28004x_defaultisr.obj" "source\f28004x_dma.obj" "source\f28004x_gpio.obj" 
+	-$(RM) "source\f28004x_piectrl.obj" "source\f28004x_pievect.obj" "source\f28004x_spi.obj" "source\f28004x_sysctrl.obj" "source\f28004x_usdelay.obj" 
+	-$(RM) "f28004x_globalvariabledefs.d" "TS_SysMng\Src\main.d" "driverlib\adc.d" "driverlib\asysctl.d" "driverlib\can.d" "driverlib\cla.d" "driverlib\clapromcrc.d" "driverlib\clb.d" "driverlib\cmpss.d" "driverlib\cputimer.d" "driverlib\dac.d" "driverlib\dcc.d" "driverlib\dcsm.d" "driverlib\dma.d" "driverlib\ecap.d" "driverlib\epwm.d" "driverlib\eqep.d" "driverlib\flash.d" "driverlib\fsi.d" "driverlib\gpio.d" "driverlib\hrcap.d" "driverlib\hrpwm.d" "driverlib\i2c.d" "driverlib\interrupt.d" "driverlib\lin.d" "driverlib\memcfg.d" "driverlib\pga.d" "driverlib\pmbus.d" "driverlib\sci.d" "driverlib\sdfm.d" "driverlib\spi.d" "driverlib\sysctl.d" "driverlib\version.d" "driverlib\xbar.d" "source\device.d" "source\f28004x_adc.d" "source\f28004x_cputimers.d" "source\f28004x_defaultisr.d" "source\f28004x_dma.d" "source\f28004x_gpio.d" "source\f28004x_piectrl.d" "source\f28004x_pievect.d" "source\f28004x_spi.d" "source\f28004x_sysctrl.d" 
+	-$(RM) "source\f28004x_codestartbranch.d" "source\f28004x_dcsm_z1otp.d" "source\f28004x_dcsm_z2otp.d" "source\f28004x_usdelay.d" 
+	-@echo 'Finished clean'
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY:
+C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/Debug/DSP_280049_Common.out:
+
+-include ../makefile.targets
+

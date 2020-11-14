@@ -1,0 +1,106 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Each subdirectory must supply rules for building sources it contributes
+source/device.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/device.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_adc.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_adc.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_codestartbranch.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_codestartbranch.asm $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_cputimers.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_cputimers.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_dcsm_z1otp.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z1otp.asm $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_dcsm_z2otp.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z2otp.asm $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_defaultisr.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_defaultisr.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_dma.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dma.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_gpio.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_gpio.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_piectrl.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_piectrl.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_pievect.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_pievect.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_spi.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_spi.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_sysctrl.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_sysctrl.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+source/f28004x_usdelay.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_usdelay.asm $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --opt_for_speed=0 --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include" --include_path="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include" --advice:performance=all --define=_LAUNCHXL_F280049C --define=_DUAL_HEADERS -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="source/$(basename $(<F)).d_raw" --obj_directory="source" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+

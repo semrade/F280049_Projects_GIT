@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OBJ_SRCS += \
+../Debug/source/device.obj \
+../Debug/source/f28004x_adc.obj \
+../Debug/source/f28004x_codestartbranch.obj \
+../Debug/source/f28004x_cputimers.obj \
+../Debug/source/f28004x_dcsm_z1otp.obj \
+../Debug/source/f28004x_dcsm_z2otp.obj \
+../Debug/source/f28004x_defaultisr.obj \
+../Debug/source/f28004x_dma.obj \
+../Debug/source/f28004x_gpio.obj \
+../Debug/source/f28004x_piectrl.obj \
+../Debug/source/f28004x_pievect.obj \
+../Debug/source/f28004x_spi.obj \
+../Debug/source/f28004x_sysctrl.obj \
+../Debug/source/f28004x_usdelay.obj 
+
+
