@@ -364,12 +364,12 @@ void initCLA(void)
     MemCfg_setLSRAMMasterSel(MEMCFG_SECT_LS3, MEMCFG_LSRAMMASTER_CPU_CLA1);
 #endif //defined(_FLASH)
 
-/*
-* Suppressing #770-D conversion from pointer to smaller integer
-* The CLA address range is 16 bits so the addresses passed to the MVECT
-* registers will be in the lower 64KW address space. Turn the warning
-* back on after the MVECTs are assigned addresses
-*/
+    /*
+    * Suppressing #770-D conversion from pointer to smaller integer
+    * The CLA address range is 16 bits so the addresses passed to the MVECT
+    * registers will be in the lower 64KW address space. Turn the warning
+    * back on after the MVECTs are assigned addresses
+    */
 #pragma diag_suppress=770
 
     /*
@@ -396,12 +396,12 @@ void initCLA(void)
     CLA_forceTasks(CLA1_BASE, CLA_TASKFLAG_8);
 }
 
-/*
-* CLA Task 1 End-of-Task Interrupt Service Routine
-*
-* Description: This ISR is run every time task 1 completes. It continuously
-* takes the filtered values from the CLA and stores it to a circular buffer
-*/
+    /*
+    * CLA Task 1 End-of-Task Interrupt Service Routine
+    *
+    * Description: This ISR is run every time task 1 completes. It continuously
+    * takes the filtered values from the CLA and stores it to a circular buffer
+    */
 #ifdef __cplusplus
 #pragma CODE_SECTION(".TI.ramfunc");
 #else
