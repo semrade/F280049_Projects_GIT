@@ -7,6 +7,7 @@
             <instance XML_version="1.2" href="drivers/tixds510c28x.xml" id="drivers" xml="tixds510c28x.xml" xmlpath="drivers"/>
             <instance XML_version="1.2" href="drivers/tixds510cla2.xml" id="drivers" xml="tixds510cla2.xml" xmlpath="drivers"/>
             <instance XML_version="1.2" href="drivers/tixds510cs_child.xml" id="drivers" xml="tixds510cs_child.xml" xmlpath="drivers"/>
+            <property Type="choicelist" Value="4" id="SWD Mode Settings"/>
             <platform XML_version="1.2" id="platform_0">
                 <instance XML_version="1.2" desc="TMS320F280049C" href="devices/f280049c.xml" id="TMS320F280049C" xml="f280049c.xml" xmlpath="devices"/>
             </platform>
