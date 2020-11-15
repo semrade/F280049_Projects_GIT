@@ -51,7 +51,6 @@
 									<listOptionValue builtIn="false" value="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc"/>
 									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/TS_SysMng/Inc}"/>
 									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
-									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.ABI.308374215" name="Application binary interface [See 'General' page to edit] (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.ABI" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.ABI.coffabi" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.OPT_FOR_SPEED.953255556" name="Speed vs. size trade-offs (--opt_for_speed, -mf)" superClass="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.OPT_FOR_SPEED" value="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.OPT_FOR_SPEED.0" valueType="enumerated"/>
@@ -238,12 +237,11 @@
 							<tool id="com.ti.ccstudio.buildDefinitions.C2000_20.2.exe.compilerDebug.844633112" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_20.2.exe.compilerDebug">
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.INCLUDE_PATH.2084301860" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/headers/include"/>
-									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/TS_SysMng/Inc}"/>
 									<listOptionValue builtIn="false" value="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/include"/>
 									<listOptionValue builtIn="false" value="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib"/>
 									<listOptionValue builtIn="false" value="C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc"/>
-									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
-									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/TS_SysMng/Inc}"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
 									<listOptionValue builtIn="false" value="${INHERITED_INCLUDE_PATH}"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.DEFINE.197465849" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C2000_20.2.compilerID.DEFINE" valueType="definedSymbols">
