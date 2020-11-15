@@ -6,22 +6,22 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 ASM_SRCS += \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_codestartbranch.asm \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z1otp.asm \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z2otp.asm \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_usdelay.asm 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_codestartbranch.asm \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z1otp.asm \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z2otp.asm \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_usdelay.asm 
 
 C_SRCS += \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/device.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_adc.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_cputimers.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_defaultisr.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dma.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_gpio.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_piectrl.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_pievect.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_spi.c \
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_sysctrl.c 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/device.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_adc.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_cputimers.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_defaultisr.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_dma.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_gpio.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_piectrl.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_pievect.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_spi.c \
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_sysctrl.c 
 
 C_DEPS += \
 ./source/device.d \
@@ -92,21 +92,21 @@ ASM_DEPS__QUOTED += \
 "source\f28004x_usdelay.d" 
 
 C_SRCS__QUOTED += \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/device.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_adc.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_cputimers.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_defaultisr.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dma.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_gpio.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_piectrl.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_pievect.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_spi.c" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_sysctrl.c" 
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/device.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_adc.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_cputimers.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_defaultisr.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_dma.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_gpio.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_piectrl.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_pievect.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_spi.c" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_sysctrl.c" 
 
 ASM_SRCS__QUOTED += \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_codestartbranch.asm" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z1otp.asm" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z2otp.asm" \
-"C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/f28004x/common/source/f28004x_usdelay.asm" 
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_codestartbranch.asm" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z1otp.asm" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_dcsm_z2otp.asm" \
+"C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/f28004x/common/source/f28004x_usdelay.asm" 
 
 

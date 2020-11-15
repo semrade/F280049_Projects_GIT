@@ -1,7 +1,7 @@
 # FIXED
 
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.c
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.h
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.c
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.h
 driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/stdbool.h
 driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/_ti_config.h
 driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/linkage.h
@@ -13,14 +13,14 @@ driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c
 driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/machine/_types.h
 driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/machine/_stdint.h
 driverlib/f28004x/driverlib/hrcap.obj: C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/sys/_stdint.h
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_memmap.h
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_types.h
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_hrcap.h
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/cpu.h
-driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/debug.h
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_memmap.h
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_types.h
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_hrcap.h
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/cpu.h
+driverlib/f28004x/driverlib/hrcap.obj: C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/debug.h
 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.c: 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.h: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.c: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/hrcap.h: 
 C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/stdbool.h: 
 C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/_ti_config.h: 
 C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/linkage.h: 
@@ -32,8 +32,8 @@ C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/sys/_types.h:
 C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/machine/_types.h: 
 C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/machine/_stdint.h: 
 C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-c2000_20.2.2.LTS/include/sys/_stdint.h: 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_memmap.h: 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_types.h: 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_hrcap.h: 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/cpu.h: 
-C:/Users/STarikUser/Documents/F280049_Projects/DSP_280049_Common/driverlib/f28004x/driverlib/debug.h: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_memmap.h: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_types.h: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/inc/hw_hrcap.h: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/cpu.h: 
+C:/Users/STarikUser/Documents/F280049_Projects/F280049_Projects_GIT/DSP_280049_Common/driverlib/f28004x/driverlib/debug.h: 
