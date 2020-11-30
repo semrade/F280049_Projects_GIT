@@ -45,8 +45,9 @@
 //
 #include "device.h"
 #include "driverlib.h"
+#include "string.h"
 #ifdef __cplusplus
-using std::memcpy;
+//using std::memcpy;
 #endif
 
 #define PASS 0

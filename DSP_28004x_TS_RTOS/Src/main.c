@@ -37,8 +37,8 @@ static void blueLedToggle(void)
     static uint32_t counter = 0;
 
     counter++;
-    //GPIO_WritePin(DEVICE_GPIO_PIN_LED1, counter & 1);
-    GPIO_togglePin(DEVICE_GPIO_PIN_LED1);
+    GPIO_WritePin(DEVICE_GPIO_PIN_LED1, counter & 1);
+    //GPIO_togglePin(DEVICE_GPIO_PIN_LED1);
 }
 
 //-------------------------------------------------------------------------------------------------
@@ -47,8 +47,8 @@ static void redLedToggle(void)
     static uint32_t counter = 0;
 
     counter++;
-    //GPIO_WritePin(DEVICE_GPIO_PIN_LED2, counter & 1);
-    GPIO_togglePin(DEVICE_GPIO_PIN_LED2);
+    GPIO_WritePin(DEVICE_GPIO_PIN_LED2, counter & 1);
+    //GPIO_togglePin(DEVICE_GPIO_PIN_LED2);
 }
 
 //-------------------------------------------------------------------------------------------------
@@ -68,13 +68,15 @@ static void ledToggle(uint32_t led)
 void vApplicationSetupTimerInterrupt(void)
 {
     // Start the timer than activate timer interrupt to switch into first task.
-    Interrupt_register(INT_TIMER2, &portTICK_ISR);
+    EALLOW;
+    PieVectTable.TIMER2_INT = &portTICK_ISR;
+    EDIS;
 
-    ConfigCpuTimer(&CpuTimer2, DEVICE_SYSCLK_FREQ, 1000000);
-
-    Interrupt_enable(INT_TIMER2);
-
-    CPUTimer_startTimer(CPUTIMER2_BASE);
+    ConfigCpuTimer(&CpuTimer2,
+                   configCPU_CLOCK_HZ / 1000000,  // CPU clock in MHz
+                   1000000 / configTICK_RATE_HZ); // Timer period in uS
+    CpuTimer2Regs.TCR.all = 0x4000;               // Enable interrupt and start timer
+    IER |= M_INT14;
 }
 
 //-------------------------------------------------------------------------------------------------
@@ -91,13 +93,16 @@ interrupt void timer1_ISR(void)
 static void setupTimer1(void)
 {
     // Start the timer than activate timer interrupt to switch into first task.
-    Interrupt_register(INT_TIMER1, &timer1_ISR);
+    EALLOW;
+    PieVectTable.TIMER1_INT = &timer1_ISR;
+    EDIS;
 
-    ConfigCpuTimer(&CpuTimer1, DEVICE_SYSCLK_FREQ, 1000000);
+    ConfigCpuTimer(&CpuTimer1,
+                   configCPU_CLOCK_HZ / 1000000,  // CPU clock in MHz
+                   100000);                       // Timer period in uS
+    CpuTimer1Regs.TCR.all = 0x4000;               // Enable interrupt and start timer
 
-    Interrupt_enable(INT_TIMER1);
-
-    CPUTimer_startTimer(CPUTIMER1_BASE);
+    IER |= M_INT13;
 }
 
 //-------------------------------------------------------------------------------------------------
@@ -117,8 +122,8 @@ void LED_TaskBlue(void *pvParameters)
 {
     for (;;)
     {
-        ledToggle((uint32_t) pvParameters);
-        vTaskDelay(250);
+        ledToggle((uint32_t)pvParameters);
+        vTaskDelay(250 / portTICK_PERIOD_MS);
     }
 }
 
